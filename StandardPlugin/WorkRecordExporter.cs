@@ -554,7 +554,7 @@ namespace AgGateway.ADAPT.StandardPlugin
                                 }
                                 else
                                 {
-                                    dataColumn.Values.Add(0d); //This section doesn't report this working data
+                                    dataColumn.Values.Add(null); //This section doesn't report this working data; missing is not zero
                                 }
                             }
                         }
